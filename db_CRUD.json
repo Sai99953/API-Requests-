@@ -1,0 +1,66 @@
+{
+  "Mobiles": [
+    {
+      "id": "2",
+      "brand": "Apple",
+      "model": "iPhone 15",
+      "price": 80000
+    },
+    {
+      "id": "3",
+      "brand": "OnePlus",
+      "model": "12R",
+      "price": 42000,
+      "Ram": "16GB"
+    },
+    {
+      "Id": 1,
+      "Name": "RealmeGT7",
+      "Ram": "12GB",
+      "Processor": "Dimencity 94",
+      "Price": 41000,
+      "id": "rj1atuzQrLQ"
+    },
+    {
+      "id": "xNioWKNAmJg",
+      "Name": "s26",
+      "Ram": "12GB",
+      "Processor": "SPGen8s elite"
+    }
+  ],
+  "headphones": [
+    {
+      "id": "1",
+      "brand": "Sony",
+      "model": "WH-1000XM5",
+      "price": 28000
+    },
+    {
+      "id": "2",
+      "brand": "JBL",
+      "model": "Tune 770",
+      "price": 7500
+    }
+  ],
+  "smartwatches": [
+    {
+      "id": "1",
+      "brand": "Apple",
+      "model": "Watch 9",
+      "price": 45000
+    },
+    {
+      "id": "2",
+      "brand": "Samsung",
+      "model": "Watch 7",
+      "price": 28000
+    },
+    {
+      "id": "3",
+      "brand": "Noise",
+      "model": "ColorFit",
+      "price": 3500
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
