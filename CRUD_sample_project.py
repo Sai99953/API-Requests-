@@ -14,7 +14,6 @@ import requests
 api=requests.get("http://localhost:3000/headphones")
 
 a=api.json()
-
 for post in a:
     print(post)
 
@@ -29,7 +28,6 @@ sending_data ={"Id":1,"Name":"RealmeGT7","Ram":"12GB","Processor":"Dimencity 94"
 json_data=json.dumps(sending_data) # Dumps method converts the python objects into json code 
 
 res=requests.post(api,data=json_data)
-
 print(res)
 print(res.json())
 
