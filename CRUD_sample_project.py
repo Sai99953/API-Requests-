@@ -1,14 +1,14 @@
-import requests
+# API: Application Programming Interface
+# JSON: Java Script Object Notation
+# Third Party Module: Request
+# HTTP: Hyper Text Transfer Protocol - Rules 
+# HTTP Methods: 
+# C -> POST
+# R -> GET
+# U -> PUT/PATCH
+# D -> DELETE
 
-api = "https://fakestoreapi.com/products/2"
-
-data = requests.get(api)
-
-print(data.json())
-
-
-
-# EX:2 GET
+# GET
 import requests
 
 api=requests.get("http://localhost:3000/headphones")
@@ -19,9 +19,7 @@ for post in a:
     print(post)
 
 
-
-
-# Ex:3 DUMPS POST
+# Ex:1 DUMPS POST
 import requests
 import json #Json in-built module
 api="http://localhost:3000/Mobiles"
@@ -36,8 +34,7 @@ print(res)
 print(res.json())
 
 
-
-# EX:4 POST
+# EX:2 POST
 import requests
 import json
 api = "http://localhost:3000/Mobiles"
